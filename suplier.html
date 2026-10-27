@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KW TRADERS | General Order Supplier & Industrial Solutions</title>
+    <meta name="description" content="KW TRADERS is a premier general order supplier in Lahore, Pakistan, offering industrial bearings, belts, safety gear, hardware, electrical, and mechanical solutions.">
+    <meta name="keywords" content="KW Traders, KW Enterprises, General Order Supplier, Industrial Tools Lahore, Bearings, Electrical Items, Safety Equipment, Construction Materials">
+    <meta name="author" content="KW TRADERS">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="KW TRADERS | General Order Supplier">
+    <meta property="og:description" content="Reliable general supplier delivering quality industrial, electrical, safety, and hardware solutions.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "KW TRADERS",
+      "image": "Img/img1.jpg",
+      "telephone": ["+923055087412", "+923178219088"],
+      "email": "kwtraders.umer@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Qila Gujjar Singh, Near Police Line",
+        "addressLocality": "Lahore",
+        "addressCountry": "Pakistan"
+      },
+      "description": "General Order Supplier in Bearings, Belts, Safety Equipment, Hardware, Electrical, and Mechanical items."
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #d32f2f;
+            --secondary-color: #0d47a1;
+            --dark-color: #1a1a1a;
+            --light-color: #f8f9fa;
+            --gray-color: #6c757d;
+            --white: #ffffff;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-color);
+            background-color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Top Bar */
+        .top-bar {
+            background-color: var(--dark-color);
+            color: var(--white);
+            padding: 8px 5%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+        }
+
+        .top-bar a {
+            color: var(--white);
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: sticky;
+            top: 0;
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-color);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover, .nav-links a.active {
+            color: var(--primary-color);
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('Img/img2.png') center/cover no-repeat;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+            padding: 0 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: var(--secondary-color);
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 5%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--secondary-color);
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-color);
+        }
+
+        /* About Section */
+        .about-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about-img img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Services & Industries Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-body h3 {
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        /* Why Choose Us Section */
+        .why-us {
+            background-color: var(--light-color);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .why-item {
+            background: var(--white);
+            padding: 30px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .why-item i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        /* Gallery / Catalog Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            transition: var(--transition);
+        }
+
+        .gallery-item img:hover {
+            opacity: 0.85;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-info {
+            background: var(--secondary-color);
+            color: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .info-item i {
+            font-size: 1.2rem;
+            margin-right: 15px;
+            margin-top: 5px;
+            color: #4fc3f7;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-color);
+            color: var(--white);
+            text-align: center;
+            padding: 20px 5%;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .top-bar {
+                flex-direction: column;
+                text-align: center;
+                gap: 5px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: var(--white);
+                flex-direction: column;
+                align-items: center;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-out;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+
+            .nav-links.active {
+                max-height: 350px;
+                padding: 20px 0;
+            }
+
+            .nav-links li {
+                margin: 10px 0;
+            }
+
+            .about-container, .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div>
+            <i class="fas fa-map-marker-alt"></i> Qila Gujjar Singh, Near Police Line, Lahore-Pakistan
+        </div>
+        <div>
+            <a href="tel:+923055087412"><i class="fas fa-phone"></i> +92 305 5087412</a>
+            <a href="mailto:kwtraders.umer@gmail.com"><i class="fas fa-envelope"></i> kwtraders.umer@gmail.com</a>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">KW <span>TRADERS</span></a>
+            <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>KW TRADERS</h1>
+            <p>Reliable General Order Supplier Delivering Quality Industrial, Electrical, Safety, Mechanical & Hardware Solutions.</p>
+            <a href="#contact" class="btn">Get A Quote</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-title">
+            <h2>About Us</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="Img/img2.png" alt="KW Traders - About Us">
+            </div>
+            <div class="about-text">
+                <h3>Your Trusted Industrial Procurement Partner</h3>
+                <p><strong>KW Enterprises / KW Traders</strong> is a leading general order supplier servicing industrial plants, construction projects, oil & gas refineries, and textile factories. We specialise in delivering high-quality equipment, spares, raw materials, and hardware tailored to your technical requirements.</p>
+                <p style="margin-top: 15px;">Whether you require mechanical bearings, electrical breakers, safety equipment, or civil building materials, we supply standard and custom solutions at market-competitive prices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" style="background-color: var(--light-color);">
+        <div class="section-title">
+            <h2>Our Services & Products</h2>
+        </div>
+        <div class="services-grid">
+            <div class="card">
+                <img src="Img/img5.png" alt="Bearings Supply">
+                <div class="card-body">
+                    <h3>Bearings</h3>
+                    <p>All kinds of bearings including Taper, Roller, and Ball Bearings with Brackets from SKF, NTN, NSK, and FAG.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/img6.png" alt="Electric Items">
+                <div class="card-body">
+                    <h3>Electrical Items</h3>
+                    <p>Circuit breakers, positioners, industrial cables, float switches, PLCs, drives, and complete control gear.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/img7.png" alt="Safety Equipment">
+                <div class="card-body">
+                    <h3>Safety Equipment</h3>
+                    <p>PPE solutions including safety jackets, shoes, gloves, helmets, padlocks, masks, and first aid kits.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/img8.png" alt="Tools and Hardware">
+                <div class="card-body">
+                    <h3>Tools & Hardware</h3>
+                    <p>Top brands: INGCO, Total, Bosch, DeWalt, Dormer, Force, Presto, SATA, Stanley, and WIKA gauges.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/img3.png" alt="Metal Pipes and Rods">
+                <div class="card-body">
+                    <h3>Metals & Pipes</h3>
+                    <p>Copper pipes, copper rods, SS pipes, SS rods, MS pipes, MS rods, and copper wires for industrial use.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/img4.png" alt="Construction Materials">
+                <div class="card-body">
+                    <h3>Construction Materials</h3>
+                    <p>Cement, steel rebar (sarya), angles, girders, doors, sand, bajri, bricks, and structural fittings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="section-title">
+            <h2>Product Catalog Gallery</h2>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="Img/img1.png" alt="General Order Supplier Summary"></div>
+            <div class="gallery-item"><img src="Img/img9.png" alt="Piping & Fittings Catalog"></div>
+            <div class="gallery-item"><img src="Img/img10.png" alt="Structural Steel & Metals"></div>
+            <div class="gallery-item"><img src="Img/img11.png" alt="Boiler & Valve Components"></div>
+            <div class="gallery-item"><img src="Img/img12.png" alt="Filters & Industrial Belts"></div>
+            <div class="gallery-item"><img src="Img/img13.png" alt="Laboratory Supplies"></div>
+            <div class="gallery-item"><img src="Img/img14.png" alt="Refrigerant Cylinders"></div>
+            <div class="gallery-item"><img src="Img/img8.png" alt="Industrial Batteries"></div>
+            <div class="gallery-item"><img src="Img/img16.jpeg" alt="Automation Controls"></div>
+            <div class="gallery-item"><img src="Img/img17.jpeg" alt="Industrial Chemicals"></div>
+            <div class="gallery-item"><img src="Img/img18.jpeg" alt="Paints & Coatings"></div>
+            <div class="gallery-item"><img src="Img/img6.png" alt="Reliable Procurement Solutions"></div>
+        </div>
+    </section>
+
+    <section id="industries" style="background-color: var(--light-color);">
+        <div class="section-title">
+            <h2>Industries We Serve</h2>
+        </div>
+        <div class="services-grid">
+            <div class="card">
+                <img src="Img/Oil-and-gas-refinery.webp" alt="Oil and Gas Refinery Supplies">
+                <div class="card-body">
+                    <h3>Oil & Gas Refineries</h3>
+                    <p>High-pressure SS/MS piping, flanges, tri-clamps, boiler safety valves, steam stop valves, pressure gauges, and process control sensors.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/Chemical-Plant.webp" alt="Chemical Processing Plant Supplies">
+                <div class="card-body">
+                    <h3>Chemical Plants</h3>
+                    <p>Corrosion-resistant copper & SS piping, laboratory testing gear, refrigerant gases, industrial sealants (Loctite, Permatex), and chemical PPE.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/Power_Transmission.webp" alt="Power Transmission Equipment">
+                <div class="card-body">
+                    <h3>Power Transmission</h3>
+                    <p>High-voltage switchgear, circuit breakers, control relays, heavy-duty industrial cables, dry & lead-acid batteries, and automation PLCs.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/Textile-Factory.webp" alt="Textile Factory Spares">
+                <div class="card-body">
+                    <h3>Textile Factories</h3>
+                    <p>Timing belts, V-belts, conveyor belting, industrial bearings (SKF, NSK, FAG), pneumatic seals, power tools, and maintenance lubricants.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Img/construction-site.webp" alt="Civil Construction Materials">
+                <div class="card-body">
+                    <h3>Civil Construction</h3>
+                    <p>Structural steel (rebar/sarya, MS angles, girders, beams), bulk cement, hardware tools, safety helmets, jackets, and site equipment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+        </div>
+        <div class="why-grid">
+            <div class="why-item">
+                <i class="fas fa-certificate"></i>
+                <h3>Quality Assured</h3>
+                <p>We source certified materials and genuine OEM components for reliable long-term operations.</p>
+            </div>
+            <div class="why-item">
+                <i class="fas fa-truck-loading"></i>
+                <h3>Complete Sourcing</h3>
+                <p>Single-window solution for mechanical, electrical, safety, hardware, and raw construction needs.</p>
+            </div>
+            <div class="why-item">
+                <i class="fas fa-tags"></i>
+                <h3>Competitive Pricing</h3>
+                <p>Direct supplier connections enable us to deliver affordable rates without sacrificing standards.</p>
+            </div>
+            <div class="why-item">
+                <i class="fas fa-clock"></i>
+                <h3>On-Time Delivery</h3>
+                <p>Fast turnaround and logistics execution tailored to minimize downtime at your facilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>KW TRADERS</h3>
+                <p style="margin-bottom: 20px;">General Order Supplier</p>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <strong>Phone / WhatsApp:</strong><br>
+                        Phone:    +92 305 5087412<br>
+                        WhatsApp: +92 317 8219088
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email Address:</strong><br>
+                        kwtraders.umer@gmail.com
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Office Location:</strong><br>
+                        Qila Gujjar Singh, Near Police Line, Lahore-Pakistan
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-boxes"></i>
+                    <div>
+                        <strong>Deals In:</strong><br>
+                        All kinds of industrial items: Bearings, Belts, Safety Items, Hardware, Electrical, and Mechanical items.
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="inquiryForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Inquiry / Requirement Details" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 KW TRADERS. All Rights Reserved. General Order Supplier & Import/Export Services.</p>
+    </footer>
+
+    <script>
+        // Mobile Navbar Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Form Handling
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            alert('Thank you for reaching out to KW TRADERS. We have received your request and will contact you shortly.');
+            event.target.reset();
+        }
+    </script>
+    <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923178219088?text=Hello%20KW%20Enterprises,%20I%20have%20an%20inquiry." 
+   style="position:fixed;bottom:20px;right:20px;background-color:#25d366;color:white;border-radius:50px;padding:12px 20px;font-family:sans-serif;font-weight:bold;text-decoration:none;box-shadow:2px 2px 5px rgba(0,0,0,0.3);z-index:1000;" 
+   target="_blank" rel="noopener noreferrer">
+  💬 Chat on WhatsApp
+</a>
+</body>
+</html>
